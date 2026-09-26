@@ -53,3 +53,13 @@ logs/
 # Temporary files
 *.tmp
 *.temp
+# иагностика и снимки экрана
+*.jpg
+*.jpeg
+*.png
+bot.stop
+combat_frames/
+diag_*
+live_*.jpg
+current_window.*
+after_tab.png
