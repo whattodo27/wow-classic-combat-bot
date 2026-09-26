@@ -1,0 +1,61 @@
+{
+  "window": {
+    "title": "World of Warcraft"
+  },
+  "live_input": true,
+  "loop_delay": 0.2,
+  "request_timeout": 120,
+  "ollama_model": "llava:7b",
+  "ollama_base_url": "http://127.0.0.1:11434",
+  "observation_source": "pixels",
+  "capture": {
+    "max_image_size": [
+      800,
+      600
+    ],
+    "image_quality": 60
+  },
+  "target_policy": {
+    "allowed_names": [
+      "Young Nightsaber",
+      "Young Thistle Boar"
+    ],
+    "blocked_names": [],
+    "allowed_levels": [],
+    "allow_unknown": false,
+    "allow_elite": false,
+    "allow_rare": false
+  },
+  "combat_rules": {
+    "target_key": "tab",
+    "live_targeting": true,
+    "turn_left_key": null,
+    "turn_right_key": "d",
+    "turn_hold_seconds": 0.75,
+    "approach_key": "w",
+    "retreat_key": "s",
+    "face_target_key": null,
+    "heal_slot": null,
+    "pet_slot": null,
+    "opening_attack_slot": 1,
+    "opening_attack_count": 2,
+    "opening_attack_interval_seconds": 2.0,
+    "melee_attack_slot": 2,
+    "melee_attack_interval_min_seconds": 1.0,
+    "melee_attack_interval_max_seconds": 1.3,
+    "heal_threshold": 40,
+    "retreat_threshold": 25,
+    "pet_health_threshold": 40,
+    "attack_slots": {
+      "1": 1,
+      "2": 2,
+      "3": null,
+      "4": null,
+      "5": null,
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null
+    }
+  }
+}
